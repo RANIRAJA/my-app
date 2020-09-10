@@ -4,7 +4,7 @@ pipeline{
         stage('Run on PR'){
             when {
         expression { env.CHANGE_ID ==~ /.*/ }
-             }
+            }
             steps{
 
             }
