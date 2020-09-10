@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages{
         stage(''run-on-pr'){
-            
+            steps
         }
     }
 }
